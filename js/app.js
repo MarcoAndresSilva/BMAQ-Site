@@ -1,5 +1,3 @@
-
-
 // ********** close links ************
 const navToggle = document.querySelector(".nav-toggle");
 const linksContainer = document.querySelector(".links-container");
@@ -40,25 +38,22 @@ window.addEventListener("scroll", function () {
     topLink.classList.remove("show-link");
   }
 
-    if (scrollHeight > 500) {
-      // console.log("helo");
-      topLinkWsp.classList.add("show-link");
-    } else {
+  if (scrollHeight > 500) {
+    // console.log("helo");
+    topLinkWsp.classList.add("show-link");
+  } else {
     topLinkWsp.classList.remove("show-link");
-    }
-
+  }
 });
 
 /******* Slider text *******/
 
-
 // SLIDER DOT
-const mySlide = document.querySelectorAll('.slider__page');
-const dot = document.querySelectorAll('.dot');
+const mySlide = document.querySelectorAll(".slider__page");
+const dot = document.querySelectorAll(".dot");
 
 let counter = 1;
 slideFun(counter);
-
 
 let timer = setInterval(autoSlide, 5000);
 
@@ -87,10 +82,10 @@ function resetTimer() {
 function slideFun(n) {
   let i;
   for (i = 0; i < mySlide.length; i++) {
-    mySlide[i].style.display = 'none';
+    mySlide[i].style.display = "none";
   }
   for (i = 0; i < dot.length; i++) {
-    dot[i].classList.remove('active')
+    dot[i].classList.remove("active");
   }
   if (n > mySlide.length) {
     counter = 1;
@@ -98,8 +93,8 @@ function slideFun(n) {
   if (n < 1) {
     counter = mySlide.length;
   }
-  mySlide[counter - 1].style.display = 'block';
-  dot[counter - 1].classList.add('active');
+  mySlide[counter - 1].style.display = "block";
+  dot[counter - 1].classList.add("active");
 }
 
 
@@ -155,7 +150,6 @@ ScrollReveal().reveal(".card4", {
   delay: 400,
   // reset: true
 });
-
 
 // ********** set date ************
 // select span
