@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BMAQ</title>
+  <title>Carros de Arrastre - BMAQ</title>
   <!-- fav icon  -->
   <link rel="shorcut icon" href="img/logo-bmaq.png">
   <!-- remix icon  -->
@@ -21,7 +21,7 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
   <!-- styles -->
-  <link rel="stylesheet" href="./css/about-us.css" />
+  <link rel="stylesheet" href="./css/arrastre.css" />
 
 
 
@@ -35,13 +35,14 @@
     <div class="header__top">
       <div class="header__top-items">
         <div class="header__top-item">
-          <ion-icon class="header__top-item" name="call-outline"></ion-icon> +569 94378854
+          <ion-icon class="header__top-item" name="call-outline"></ion-icon> +56 9 4441 2556
         </div>
         <div class="header__top-item">
           <ion-icon class="header__top-item" name="mail-open-outline"></ion-icon> yberland@bmaq.cl
         </div>
         <div class="header__top-item">
-          <ion-icon class="header__top-item" name="location-outline"></ion-icon>kilómetro 17 panamericana norte Colina
+          <ion-icon class="header__top-item" name="location-outline"></ion-icon>Barron Vieyra Sitio 10-B, kilómetro 17
+          panamericana norte Colina
           Santiago.
         </div>
       </div>
@@ -79,8 +80,14 @@
             <li>
               <a href="./aboutus.html" class="scroll-link">Nosotros</a>
             </li>
-            <li>
-              <a href="./products.html" class="scroll-link">Productos</a>
+           <li class="dropdown">
+              <a href="#" class="scroll-link">Productos</a>
+              <ul class="submenu">
+                <li><a href="./estanques.html" >Estanques</a></li>
+                <li><a href="./carrocerias.html" >Carrocerias</a></li>
+                <li><a href="./especiales.html" >Equipos Especiales</a></li>
+                <li><a href="./arrastre.html" >Carros de Arrastre</a></li>
+              </ul>
             </li>
             <li>
               <a href="./index.html" class="scroll-link">Servicios</a>
@@ -96,89 +103,48 @@
       </div>
     </nav>
   </header>
-  <section class="about-us">
-    <div class="about-us-container">
-      <h2 class="subtitle">Nuestra Empresa<span class="point">.</span></h2>
-      <p class="copy">Maquinarias de alta calidad y rendimiento, seguridad y confianza </p>
-      <div class="about-content">
-        <div class="about-texts">
-          <h3 class="about-subtitle">
-            Acerca de BMAQ
-          </h3>
-          <p class="about-p">BMAQ S.P.A. Con presencia en el mercado nacional hace <span class="point">más de 15
-              años.</span> Es una de las
-            empresas con mayor trayectoria en la fabricación de equipos sobre camión.
-            Carrocerías mineras, estanques aljibes y limpia fosas tanto para las industrias mineras,forestal, medio
-            ambiental, municipal, eléctricas, entre otras.</p>
-          <p class="about-p">Desde el año 2014 contamos con instalaciones propias. Con más de 12 puestos de trabajo
-            simultaneo, puente grúa, sala de pintura independiente, estacionamientos, bodegas y oficinas. Para
-            brindarles seguridad, compromiso, calidad y óptimos plazos de entrega.</p>
-            <button class="btn btn-modal" id="descargarPDF">Ver Más acerca de nosostros</button>
-        </div>
+  <h2 class="arrastre-title">Carros de Arrastre</h2>
+  <section class="gallerries">
+    <!-- carros de arrastre-->
+    <section class="section-gallery carros-arrastre">
+      <img src="./img/arrastre1.jpeg" title="Carro-Arrastre" class="img-arrastre"
+        data-id="1" alt="carros-arrastre">
+        <img src="./img/arrastre2.jpeg" title="Carro-Arrastre" class="img-arrastre"
+        data-id="2" alt="carros-arrastre">
+        <img src="./img/arrastre3.jpeg" title="Carro-Arrastre" class="img-arrastre"
+        data-id="3" alt="carros-arrastre">
+        <img src="./img/arrastre4.jpeg" title="Carro-Arrastre" class="img-arrastre"
+        data-id="4" alt="carros-arrastre">
+    </section>
 
-        <div class="about-images">
-          <div class="container-images kit-uno">
-            <div class="image-box">
-              <img src="./img/portada.jpg" alt="" class="images-kits">
-              <!-- <span class="text-images">pertigas</span> -->
-            </div>
-            <div class="image-box">
-              <img src="./img/carroceria metalica.jpg" alt="" class="images-kits">
-              <!-- <span class="text-images">Stop Automatico</span> -->
-            </div>
-            <div class="image-box">
-              <img src="./img/utilitaria1.jpeg" alt="" class="images-kits">
-              <!-- <span class="text-images">Foco Faenero</span> -->
-            </div>
-            <div class="image-box">
-              <img src="./img/portada3.jpeg" alt="" class="images-kits">
-              <!-- <span class="text-images">Foco de Retroceso</span> -->
-            </div>
-            <div class="image-box">
-              <img src="./img/estanques1.jpeg" alt="" class="images-kits">
-              <!-- <span class="text-images">Baliza</span> -->
-            </div>
-            <div class="image-box">
-              <img src="./img/utilitaria3.jpeg" alt="" class="images-kits">
-              <!-- <span class="text-images">Bocina de Retroceso</span> -->
-            </div>
-          </div>
-        </div>
-        <div class="our-values">
-          <div class="mision-vision">
-            <h3 class="about-subtitle">
-              Misión
-            </h3>
-            <p class="about-p">Ingenieria y desarrollo con los mas altos estandares de calidad en la fabricacion de
-              equipos sobre camion. Generando confianza en todos nuestros clientes a nivel nacional.</p>
-            <h3 class="about-subtitle">
-              Visión
-            </h3>
-            <p class="about-p">
-              Convertirnos en una de las fabricas mas reconocidas a nivel nacional en la fabricacion de productos de
-              gran calidad</p>
-          </div>
-          <div class="valores">
-            <h3 class="about-subtitle">
-              Valores
-            </h3>
-            <div class="valor-texts">
-              <h3 class="valor">Responsabilidad</h3>
-              <h3 class="valor">Compromiso</h3>
-              <h3 class="valor">Confianza</h3>
-              <h3 class="valor">Liderazgo</h3>
-              <h3 class="valor">Inclusion</h3>
-              <h3 class="valor">Respeto</h3>
-              <h3 class="valor">Humildad</h3>
-            </div>
-          </div>
-        </div>
 
+    <!-- modal -->
+    <div class="modal">
+      <button class="close-btn">
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+      <div class="modal-content">
+        <!-- prev next buttons  -->
+        <button class="prev-btn">
+          <ion-icon name="chevron-back-outline"></ion-icon>
+        </button>
+        <button class="next-btn">
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </button>
+
+        <!-- content  -->
+        <img src="./img/arrastre1.jpeg" class="main-img" alt="">
+        <h3 class="image-name">Carroceria Reforzada Full Minera CRFM63</h3>
+        <button class="btn btn-modal" id="descargarPDF">Ver Catalogo</button>
+        <div class="modal-images">
+          <img src="./img/arrastre1.jpeg" title="arrastre1" id="1" class="modal-img" alt="carros-arrastre">
+          <img src="./img/arrastre1.jpeg" title="arrastre2" id="2" class="modal-img selected"
+            alt="carrocerias">
+        </div>
       </div>
     </div>
+
   </section>
-
-
 
   <!-- contact  -->
   <section class="contact" id="contact">
@@ -189,32 +155,32 @@
       <div class="contact__box">
         <div class="contact__item box__form">
           <h3 class="contact__subtitle">Envianos un mensaje</h3>
-          <form action="" class="contact__form">
+          <form action="send.php" method="post" class="contact__form">
             <div class="form__container">
               <div class="row50">
                 <div class="inputBox">
                   <span class="inputBox__span">Nombre</span>
-                  <input type="text" placeholder="Nombre" class="inputBox__input">
+                  <input type="text" name="name" placeholder="Nombre" class="inputBox__input">
                 </div>
                 <div class="inputBox">
                   <span class="inputBox__span">Apellido</span>
-                  <input type="text" placeholder="Apellido" class="inputBox__input">
+                  <input type="text" name="lastname" placeholder="Apellido" class="inputBox__input">
                 </div>
               </div>
               <div class="row50">
                 <div class="inputBox">
                   <span class="inputBox__span">Email</span>
-                  <input type="text" placeholder="email@gmail.com" class="inputBox__input">
+                  <input type="text" name="mail" placeholder="email@gmail.com" class="inputBox__input">
                 </div>
                 <div class="inputBox">
                   <span class="inputBox__span">Telefono</span>
-                  <input type="text" placeholder="+569 12345678" class="inputBox__input">
+                  <input type="text" name="phone" placeholder="+569 12345678" class="inputBox__input">
                 </div>
               </div>
               <div class="row100">
                 <div class="inputBox">
                   <span class="inputBox__span">Mensaje</span>
-                  <textarea placeholder="Escribe tu mensaje aquí"></textarea>
+                  <textarea name="message" placeholder="Escribe tu mensaje aquí"></textarea>
                 </div>
               </div>
               <div class="row100">
@@ -239,13 +205,13 @@
               <span class="info__item__icon">
                 <ion-icon name="mail-open"></ion-icon>
               </span>
-              <a href="#" class="info__link">contacto@bmaq.com</a>
+              <a href="#" class="info__link">yberland@bmaq.cl</a>
             </div>
             <div class="info__item">
               <span class="info__item__icon">
                 <ion-icon name="call"></ion-icon>
               </span>
-              <a href="tel:+569 94378854" class="info__link">+56 223268580</a>
+              <a href="tel:+569 94378854" class="info__link">+56 9 4441 2556</a>
             </div>
             <!--social links-->
             <ul class="info__social">
@@ -271,6 +237,17 @@
     </div>
   </section>
   <!-- contact end   -->
+
+
+  <a class="scroll-link top-link" href="#home">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <a class="scroll-link top-link top-link--wsp" href="https://wa.me/+56944412556?text=Hola%20desde%20mi%20página%20web"
+    target="_blank">
+    <ion-icon name="logo-whatsapp"></ion-icon>
+  </a>
+
 
   </main>
   <!-- main end -->
@@ -326,50 +303,30 @@
       <p>Designed by:<a href="https://maspcode.com"> MaspCode</a></p>
       <p>Todos los derechos reservados &copy; 2023</p>
     </div>
-
-
-    <a class="scroll-link top-link" href="#home">
-      <i class="fas fa-arrow-up"></i>
-    </a>
-
-        <a class="scroll-link top-link top-link--wsp" href="https://wa.me/+56944412556?text=Hola%20desde%20mi%20página%20web"
-          target="_blank">
-      <ion-icon name="logo-whatsapp"></ion-icon>
-    </a>
+  </footer>
 
 
 
+  <!-- javascript -->
 
-    </main>
+  <!-- SCROLL REVEAL  -->
+  <script src="./js/scrollreveal.min.js"></script>
 
-    <!-- <footer class="section">
-    <p>
-      copyright &copy; BMAQ SPA
-      <span id="date"></span>. all rights reserved
-    </p>
-  </footer> -->
+  <!-- Slick js  -->
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="./slick.min.js"></script>
+  <script type="text/javascript" src="./carrousel-clientes.js"></script>
 
+  <!-- App  -->
+  <script src="./js/arrastre.js"></script>
 
-    <!-- javascript -->
-
-    <!-- SCROLL REVEAL  -->
-    <script src="./js/scrollreveal.min.js"></script>
-
-    <!-- Slick js  -->
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="text/javascript" src="./slick.min.js"></script>
-    <script type="text/javascript" src="./carrousel-clientes.js"></script>
-
-    <!-- App  -->
-    <script src="./js/about-us.js"></script>
-
-    <!--IonIcons-->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!--IonIcons-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
