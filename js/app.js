@@ -155,3 +155,4 @@ ScrollReveal().reveal(".card4", {
 // select span
 // const date = document.getElementById("date");
 // date.innerHTML = new Date().getFullYear();
+
