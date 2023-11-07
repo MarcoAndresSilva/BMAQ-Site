@@ -31,7 +31,7 @@ window.addEventListener("scroll", function () {
 
 // DESCARGAR PDF
 document.getElementById("descargarPDF").addEventListener("click", function () {
-  var url = "dd/Presentación-BMAQ2.pdf"; // Reemplaza 'tu_archivo.pdf' con la ruta correcta a tu archivo PDF.
+  var url = "dd/Presentación-BMAQ.pdf"; // Reemplaza 'tu_archivo.pdf' con la ruta correcta a tu archivo PDF.
   var xhr = new XMLHttpRequest();
   xhr.responseType = "blob";
 

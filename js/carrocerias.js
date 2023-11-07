@@ -138,12 +138,12 @@ Gallery.prototype.shooseImage = function (e) {
 };
 
 const reforzadas = new Gallery(getElement(".carrocerias-reforzadas"));
-const standart = new Gallery(getElement(".carrocerias-standart"));
+// const standart = new Gallery(getElement(".carrocerias-standart"));
 // const estanques = new Gallery(getElement(".estanques"));
 
 // DESCARGAR PDF
 document.getElementById("descargarPDF").addEventListener("click", function () {
-  var url = "dd/CARROCERIAS-LINEA-REFORZADA-1.pdf"; // Reemplaza 'tu_archivo.pdf' con la ruta correcta a tu archivo PDF.
+  var url = "dd/CATALOGO-2023-CARROCERIAS-LINEA-STANDARD.pdf"; // Reemplaza 'tu_archivo.pdf' con la ruta correcta a tu archivo PDF.
   var xhr = new XMLHttpRequest();
   xhr.responseType = "blob";
 

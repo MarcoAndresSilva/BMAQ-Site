@@ -141,7 +141,7 @@ const reforzadas = new Gallery(getElement(".estanques"));
 
 // DESCARGAR PDF
 document.getElementById("descargarPDF").addEventListener("click", function () {
-  var url = "dd/ESTANQUES-1.pdf"; // Reemplaza 'tu_archivo.pdf' con la ruta correcta a tu archivo PDF.
+  var url = "dd/CATALOGO-2023-ESTANQUES.pdf"; // Reemplaza 'tu_archivo.pdf' con la ruta correcta a tu archivo PDF.
   var xhr = new XMLHttpRequest();
   xhr.responseType = "blob";
 
