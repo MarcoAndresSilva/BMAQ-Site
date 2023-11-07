@@ -328,6 +328,11 @@ nav {
   color: var(--clr-white);
 }
 
+.fixed-nav .links .submenu a {
+  color: var(--clr-white);
+}
+
+
 .nav-header {
   display: flex;
   align-items: center;
@@ -377,16 +382,51 @@ nav {
   color: var(--clr-grey-1);
 }
 
-.links li:last-child {
+/* .links li:last-child {
   background-color: var(--clr-primary-1);
   border-radius: 8px;
 }
 
 .links li:last-child a {
   color: var(--clr-primary-2)
+} */
+
+
+/*submenu nav*/
+.dropdown:hover .submenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 10;
 }
 
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: var(--clr-primary-2);
+  width: 160px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
 
+.submenu li {
+  position: relative;
+}
+
+.submenu a {
+  margin: 0 auto;
+}
+
+.submenu a:hover {
+  background-color: var(--clr-primary-1);
+
+}
+
+.submenu li a:hover {
+  margin: 0;
+  text-align: center;
+}
 
 
 @media screen and (min-width: 800px) {
@@ -561,6 +601,10 @@ nav {
   padding: 2rem;
 }
 
+.mision-vision .about-p{
+  font-size: 1.3rem;
+}
+
 .valores {
   text-align: center;
 
@@ -583,7 +627,7 @@ nav {
 
 .valor-texts .valor {
   color: var(--clr-grey-4);
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 

@@ -798,7 +798,7 @@ header {
   width: 80%;
   height: 600px;
   text-align: justify;
-  background: linear-gradient(0deg, rgb(36, 88, 92) 1%, rgb(207, 139, 3) 20%, rgb(226, 224, 212) 95%);
+ background: linear-gradient(0deg, rgb(0, 100, 97) 1%, rgb(0, 198, 172) 8%, rgb(0, 41, 93) 25%, rgba(113,138,166,0.9331933456976541) 62%, rgb(230, 238, 241) 100%);
   color: #fff;
   transition: all 0.4s;
   margin-bottom: 2rem;
@@ -876,7 +876,7 @@ header {
 
 .text-images {
   text-align: center;
-  color: var(--clr-grey-2);
+  color: var(--clr-white);
   font-weight: 600;
   padding: 10px;
 }
